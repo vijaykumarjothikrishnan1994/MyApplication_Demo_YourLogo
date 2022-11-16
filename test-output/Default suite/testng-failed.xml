@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Base_Window_Handling.DropDown">
+      <class name="TestNGwithJenkins.TakeScreenShot">
         <methods>
-          <include name="Dropdown"/>
+          <include name="takeScreenshot"/>
         </methods>
-      </class> <!-- Base_Window_Handling.DropDown -->
+      </class> <!-- TestNGwithJenkins.TakeScreenShot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
